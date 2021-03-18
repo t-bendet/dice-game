@@ -1,11 +1,22 @@
 import React from "react";
-import "./App.css";
+import "./styles/App.css";
+import ScoreBoard from './ScoreBoard'
+import PlayerCard from './PlayerCard'
+import Dice from './Dice'
+
+
 
 class App extends React.Component {
+  state={inPlay:false}
   render() {
     return (
       <div className="container">
-        <h1>dice dice dice</h1>
+        <ScoreBoard/>
+        <div className="game"> 
+          <PlayerCard/>
+          <Dice/>
+          <PlayerCard/>
+        </div>
       </div>
     );
   }

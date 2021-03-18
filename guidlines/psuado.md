@@ -1,8 +1,14 @@
-## main state
-
-- [ ] game limit -deafult parm 100
-- [ ] current player  
-- [ ] randomize numbers
+## game display process 
+- [ ] intializng state = {game limit -deafult parm 100}
+- [ ] display hello message
+- [ ] get player one/two
+- [ ] get players names
+- [ ] randomize who get to go first
+- [ ] display to user
+- [ ] game in play (randomize numbers) 
+- [ ] player can restart whenever he wants
+- [ ] game end.display "another game?" yes/no
+- [ ] yes? start another game:display goodbye animation
 
 
 ## player state
@@ -13,9 +19,6 @@
 - [ ] display cube
 
 ## extras
- 1. Add how many times the player has won the game
- 2. Add local storage so our data will be persistent.
- 3. Add an AI to compete against
- 4. if you get 6 and 6 hold your event listeners for 1 second and display a message that you got 6 and 6. Can be a funny gif or anything you can think of.
- 5. Add background music and sound effects.
- 6. Any other additions are welcome. Go crazy!
+ 1. Add local storage so our data will be persistent. games history
+ 2. Add an AI to compete against
+ 3. Add background music and sound effects.

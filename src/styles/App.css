@@ -1,0 +1,13 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: aqua;
+}
+
+.game{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
