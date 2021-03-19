@@ -2,9 +2,12 @@
   height: 100vh;
   display: grid;
   grid-template-rows: 150px 1fr;
-  background-color: aqua;
+  text-transform: capitalize;
+  background-image: url("./back.jpg"); /* The image used */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
-/* temp */
 .game-area{
   display: grid;
   grid-template-columns:1fr 150px 1fr;
@@ -12,3 +15,5 @@
   align-items: center;
   height: 100%;
 }
+
+

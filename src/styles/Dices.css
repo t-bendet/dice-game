@@ -6,15 +6,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10%;
+  background-color: whitesmoke;
+  opacity: 0.9;
+
 }
 
 .dice{
   height: 50px;
   width: 50px;
-  border: solid 3px black;
   margin: 1rem;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-button{
+.btn{
   margin: 0.5rem;
+  width: 50px;
+  border-radius: 5px;
 }

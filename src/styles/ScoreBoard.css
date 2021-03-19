@@ -1,5 +1,4 @@
 .score-board{
-  background-color: bisque;
   display: grid;
   grid-template-columns: 200px minmax(200px,1fr) 200px;
   grid-template-rows: 100%;
@@ -7,20 +6,37 @@
 }
 
 .status{
-  background-color: cadetblue;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   max-height: 100%;
   padding-left: 10px;
-}
-
-h3,p{
-  margin: 0;
+  background-color: crimson;
+  color: beige;
+  border-radius: 10px;
+  opacity: 0.9;
 }
 
 .config{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.config-defualt{
+  margin: 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: mediumaquamarine;
+  font-size: 20px;
+  color: rgb(0, 85, 85);
+  font-weight: bolder;
+
+}
+
+.t-score{
+  width: 80px;
 }
