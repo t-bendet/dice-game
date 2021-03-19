@@ -1,13 +1,14 @@
 .container {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
+  display: grid;
+  grid-template-rows: 150px 1fr;
   background-color: aqua;
 }
-
-.game{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
+/* temp */
+.game-area{
+  display: grid;
+  grid-template-columns:1fr 150px 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
 }

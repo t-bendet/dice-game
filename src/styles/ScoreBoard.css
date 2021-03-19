@@ -1,13 +1,26 @@
 .score-board{
-  height:150px;
   background-color: bisque;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 200px minmax(200px,1fr) 200px;
+  grid-template-rows: 100%;
+  padding: 1rem;
 }
 
-.box{
-  height: 100px;
-  width: 100px;
-  background-color: brown;
+.status{
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-height: 100%;
+  padding-left: 10px;
+}
+
+h3,p{
+  margin: 0;
+}
+
+.config{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,20 @@
+.dice-con{
+  height: 300px;
+  width: 200px;
+  border: solid 3px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice{
+  height: 50px;
+  width: 50px;
+  border: solid 3px black;
+  margin: 1rem;
+}
+
+button{
+  margin: 0.5rem;
+}
